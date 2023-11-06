@@ -1,9 +1,12 @@
 def cria_novo_cliente():
-    """Pedir os dados de um novo cliente
+    # Inicialize um dicionário vazio para armazenar as informações do cliente
+    novo_cliente = {}
 
-    :return: dicionario com o novo cliente, {"nome": <<nome>>, "nif": <<nif>>, ...}
-    """
-    # TODO: pedir os dados do cliente e não esquecer de os devolver
-    # ...
+    # Solicite as informações do cliente ao usuário
+    novo_cliente["nome"] = input("Nome do cliente: ")
+    novo_cliente["nif"] = input("NIF do cliente: ")
+    novo_cliente["email"] = input("E-mail do cliente: ")
+    novo_cliente["telefone"] = input("Telefone do cliente: ")
 
-    pass
+    # Returnar o dicionário com as informações do novo cliente
+    return novo_cliente
