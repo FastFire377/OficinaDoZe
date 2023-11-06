@@ -32,9 +32,9 @@ def menu():
     while True:
         print("""
         ____________________________________________________________________
-        | (-: Oficina D'Zé - Morte ao IUC  :-)    :
+        |              (-: Oficina D'Zé - Morte ao IUC  :-)                 :
         ____________________________________________________________________
-        : Criacao de:          Listagem de:                                            :
+        : Criacao de:          Listagem de:                                 :
         : nc - Cliente         lc - Clientes                                :
         : nv - Veículo         lv - Veículos                                :
         : nf - Fatura          lf - Faturas                                 :
